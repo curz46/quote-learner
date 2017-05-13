@@ -1,0 +1,32 @@
+{
+  "name": "quote-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-webpack": "^1.5.0",
+    "node-sass": "^4.5.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.5",
+    "vue-loader": "^12.0.3",
+    "vue-template-compiler": "^2.3.3",
+    "yargs": "^8.0.1"
+  },
+  "dependencies": {
+    "diff": "^3.2.0",
+    "vue": "^2.3.3"
+  }
+}

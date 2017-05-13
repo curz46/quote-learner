@@ -1,0 +1,239 @@
+@import "../../common/button.scss";
+
+@mixin card-container-outer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin card-container {
+  margin: auto;
+  width: 90%;
+  height: 20%;
+  margin-top: 20px;
+}
+
+@mixin card-header {
+  display: block;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+@mixin card-quote {
+  display: block;
+  padding: 10px;
+  background-color: #ececec;
+}
+
+.round-card {
+  display: block;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  margin: auto;
+  width: 450px;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+}
+
+.package-container-outer {
+  @include card-container-outer;
+}
+
+.package-container {
+  @include card-container;
+
+  .package-header {
+    @include card-header;
+  }
+
+  .package-row {
+    margin-top: 30px;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .package-item {
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border: 1px solid #cccccc;
+    cursor: default;
+  }
+
+  .package-item:nth-of-type(2) {
+    float: right;
+  }
+}
+
+.init-container-outer {
+  @include card-container-outer;
+}
+
+.init-container {
+  margin: auto;
+  width: 90%;
+  margin-top: 20px;
+
+  .init-header {
+    @include card-header;
+  }
+
+  .init-group-list {
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .button-container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .button-next {
+    @include button;
+
+    background-color: #7289c2;
+    color: white;
+    border: none;
+  }
+}
+
+.test-container-outer {
+  @include card-container-outer;
+}
+
+.test-container {
+  .prompt-container, .answer-container {
+    @include card-container;
+  }
+
+  .prompt-header, .answer-header {
+    @include card-header;
+  }
+
+  .answer-container {
+    margin-top: 15%;
+  }
+
+  .prompt-content {
+    @include card-quote;
+    margin-top: 10px;
+  }
+
+  .prompt-info {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .answer-box {
+    display: block;
+    margin-top: 10px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+  }
+
+  .button-container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .button-check {
+    @include button;
+    transition: border 0.2s, background-color 0.2s;
+    background-color: white;
+
+    &.answered {
+      transition: border 0.2s, background-color 0.2s;
+      border: 1px solid #7289c2;
+      background-color: #7289c2;
+      color: white;
+    }
+  }
+}
+
+.learn-container-outer {
+  @include card-container-outer;
+}
+
+.learn-container {
+  .quote-container, .answer-container, .retype-container {
+    @include card-container;
+    margin-top: 10px;
+  }
+
+  .answer-container {
+    // margin-top: 15px;
+  }
+
+  .quote-header, .answer-header, .retype-header {
+    @include card-header;
+    margin-top: 15px;
+  }
+
+  .quote-content {
+    @include card-quote;
+    margin-top: 10px;
+  }
+
+  .answer-content {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+
+    span {
+      background-color: #a0dca0;
+
+      &.grey {
+        background-color: white;
+      }
+
+      &.red {
+        background-color: #f2a4a4;
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  .retype-box {
+    display: block;
+    margin-top: 10px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+  }
+
+  .button-container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .button-next {
+    @include button;
+    border: none;
+    background-color: #7289c2;
+    color: white;
+    transform: translateX(-5px);
+  }
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+
+.slide-fade-enter {
+  transform: translateX(10px);
+  opacity: 0;
+}
