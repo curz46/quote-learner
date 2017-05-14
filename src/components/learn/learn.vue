@@ -22,9 +22,13 @@
       <div class="init-container-outer" v-show="mode === 'init'">
         <div class="init-container">
           <span class="init-header">Select what you'd like to learn:</span>
+          <div class="all-container">
+            <span class="all-label">All</span>
+            <input type="checkbox" class="all-checkbox" v-model="allQuotes">
+          </div>
           <div class="init-group-list">
             <div v-for="group in groups">
-              <input type="checkbox" :value="group" v-model="selectedGroups">
+              <input type="checkbox" :value="group" :disabled="allQuotes" v-model="selectedGroups">
               <span>{{ group }}</span>
             </div>
           </div>

@@ -344,7 +344,17 @@ export default {
       quotes: [],
       groups: [],
       selectedGroups: [],
-      selectedQuotes: []
+      selectedQuotes: [],
+      allQuotes: false
+    }
+  },
+  watch: {
+    allQuotes (value) {
+      if (value) {
+        this.selectedGroups = this.groups
+        return
+      }
+      this.selectedGroups = []
     }
   },
   computed: {
@@ -368,7 +378,6 @@ export default {
         : 0
     },
     hasRetyped () {
-      console.log(this.round.correct)
       return this.round.correct || this.round.retype === this.round.answer
     }
   },
@@ -388,7 +397,7 @@ export default {
         if (!arr.includes(group)) arr.push(group)
         return arr
       }, [])
-      this.selectedGroups = this.groups
+      this.selectedGroups = []
 
       this.test = createTest(this.quotes)
       this.round = Object.assign({}, this.test[0], {

@@ -79,6 +79,11 @@
 
   .init-header {
     @include card-header;
+    display: inline-block;
+  }
+
+  .all-container {
+    float: right;
   }
 
   .init-group-list {
