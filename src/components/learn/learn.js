@@ -74,6 +74,11 @@ const ge = `== Pip
 "I thought of the beautiful young Estella, proud and refined, coming towards me, and I thought with absolute abhorrence of the contrast between the jail and her."
 "Miss Havisham's intentions towards me, all a mere dream; Estella not designed for me; I only suffered in Satis House as a convenience, a sting for the greedy relations, a model with a mechanical heart to practise on when no other practice was at hand; those were the first smarts I had."
 "It would have been cruel in Miss Havisham, horribly cruel, to practise on the susceptibility of a poor boy, and to torture me through all these years with a vain hope and an idle pursuit, if she had reflected on the gravity of what she did. But I think she did not."
+"Whenever I watched the vessels standing out to sea with their white sails spread, I somehow thought of Miss Havisham and Estella; ... Miss Havisham and Estella and the strange house and the strange life appeared to have something to do with everything that was picturesque."
+"She reserved it for me to ... in short, do all the shining deeds of the young Knight of romance, and marry the Princess."
+"I thought of the beautiful young Estella, proud and refined, coming towards me, and I thought with absolute abhorrence of the contrast between the jail and her."
+"Miss Havisham's intentions towards me, all a mere dream; Estella not designed for me"
+"It would have been cruel in Miss Havisham, horribly cruel, to practise on the susceptibility of a poor boy, if she had reflected on the gravity of what she did. But I think she did not."
 == Gender
 "she pounced on Joe, and, taking him by the two whiskers, knocked his head for a little while against the wall behind him"
 "the bride within the bridal dress had withered like the dress ... the figure upon which it now hung loose, had shrunk to skin and bone ... waxwork and skeleton seemed to have dark eyes that moved and looked at me."
