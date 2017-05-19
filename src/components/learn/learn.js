@@ -70,7 +70,8 @@ const ge = `== Pip
 "We spent as much money as we could ... We were always more or less miserable"
 == Ambitions
 "Whenever I watched the vessels standing out to sea with their white sails spread, I somehow thought of Miss Havisham and Estella; ... Miss Havisham and Estella and the strange house and the strange life appeared to have something to do with everything that was picturesque."
-"She had adopted Estella, she had as good as adopted me, and it could not fail to be her intention to bring us together. She reserved it for me to ... in short, do all the shining deeds of the young Knight of romance, and marry the Princess."
+"She had adopted Estella, she had as good as adopted me, and it could not fail to be her intention to bring us together."
+"She reserved it for me to ... in short, do all the shining deeds of the young Knight of romance, and marry the Princess."
 "I thought of the beautiful young Estella, proud and refined, coming towards me, and I thought with absolute abhorrence of the contrast between the jail and her."
 "Miss Havisham's intentions towards me, all a mere dream; Estella not designed for me; I only suffered in Satis House as a convenience, a sting for the greedy relations, a model with a mechanical heart to practise on when no other practice was at hand; those were the first smarts I had."
 "It would have been cruel in Miss Havisham, horribly cruel, to practise on the susceptibility of a poor boy, and to torture me through all these years with a vain hope and an idle pursuit, if she had reflected on the gravity of what she did. But I think she did not."
