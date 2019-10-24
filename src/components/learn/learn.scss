@@ -61,6 +61,10 @@
     line-height: 80px;
     border: 1px solid #cccccc;
     cursor: default;
+
+	&:hover {
+	  background-color: darken(white, 10%);
+	}
   }
 
   .package-item:nth-of-type(2) {

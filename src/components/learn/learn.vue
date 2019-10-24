@@ -7,7 +7,7 @@
         <div class="package-container">
           <span class="package-header">Select a quote package:</span>
           <div class="package-row">
-            <div class="package-item" v-on:click="select('macbeth')">Macbeth</div>
+            <div class="package-item" v-on:click="select('macbeth')" style="background-color: #AAAAAA;">Macbeth</div>
             <div class="package-item" v-on:click="select('ge')">Great Expectations</div>
           </div>
           <div class="package-row">
